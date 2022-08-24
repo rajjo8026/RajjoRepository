@@ -12,4 +12,9 @@ public class Controller {
     public String sayName() {
         return "RANJIT BHOSALE" ;
     }
+
+    @GetMapping("/kk")
+    public String sayChange() {
+        return "Came from Kartik" ;
+    }
 }
