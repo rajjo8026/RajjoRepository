@@ -17,4 +17,9 @@ public class Controller {
     public String changesByYogesh() {
         return "Chenges made by yogeshwar Please review and do needful if any" ;
     }
+
+    @GetMapping("/kk")
+    public String sayChange() {
+        return "Came from Kartik" ;
+    }
 }
