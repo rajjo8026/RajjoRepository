@@ -12,4 +12,9 @@ public class Controller {
     public String sayName() {
         return "RANJIT BHOSALE" ;
     }
+
+    @GetMapping
+    public String changesByYogesh() {
+        return "Chenges made by yogeshwar Please review and do needful if any" ;
+    }
 }
